@@ -1,0 +1,1 @@
+This code demonstrates a common error in TypeScript where a function expects a string or null, but the caller passes undefined.  This results in a type error because undefined isn't included in the union type 'string | null'.  The solution shows how to handle undefined to avoid this error.
